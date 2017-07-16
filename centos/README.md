@@ -11,6 +11,12 @@ yum makecache
 
 ### 2. 安装 myzsh （http://ohmyz.sh/）
 
+首先需要安装zsh： https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+
+> sudo yum update && sudo yum -y install zsh
+
+然后执行下面的命令安装 myzsh
+
 > sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ### 3. 安装 nodejs， npm， yarn
