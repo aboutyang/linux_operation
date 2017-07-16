@@ -33,9 +33,7 @@ apt-get install -y nodejs
 npm config set registry=http://registry.npm.taobao.org
 
 npm install -g cnpm --registry=https://registry.npm.taobao.org 
-
 ```
-
 
 ### 4. 安装 jdk
 
@@ -51,3 +49,9 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 dev.aliyun.com/search.html
 useradd -d /home/docker -m -s /bin/bash docker
 ```
+
+### 6. 安装 docker-compose 
+
+> https://github.com/docker/compose/releases
+
+需要root权限
