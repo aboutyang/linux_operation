@@ -15,11 +15,27 @@ yum makecache
 
 ### 3. 安装 nodejs， npm， yarn
 
+> https://www.metachris.com/2017/01/how-to-install-nodejs-7-on-ubuntu-and-centos/
+
 ```
-https://www.metachris.com/2017/01/how-to-install-nodejs-7-on-ubuntu-and-centos/
-https://npm.taobao.org/
-https://yq.aliyun.com/articles/47269
+# Install Node.js 7.x repository
+curl -sL https://deb.nodesource.com/setup_7.x | bash -
+
+# Install Node.js and npm
+apt-get install -y nodejs
 ```
+
+**更新nodejs源**
+
+> https://yq.aliyun.com/articles/47269
+
+```
+npm config set registry=http://registry.npm.taobao.org
+
+npm install -g cnpm --registry=https://registry.npm.taobao.org 
+
+```
+
 
 ### 4. 安装 jdk
 
